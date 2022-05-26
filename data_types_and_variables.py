@@ -28,3 +28,20 @@ offer_still_valid = True
 offer_applied = (premium_member or more_than_2_items) and offer_still_valid
 
 print(offer_applied)
+
+# Q5 Create a variable that holds a boolean value for each of the following conditions:
+username = 'codeup'
+password = 'notastrongpassword'
+
+# the password must be at least 5 characters
+if len(password) >= 5:
+    print(True)
+# the username must be no more than 20 characters
+if len(username) > 20:
+    print(True)
+# the password must not be the same as the username
+if username != password:
+    print(True)
+# bonus neither the username or password can start or end with whitespace
+if username != " % " and password != " % ":
+    print(True)
